@@ -1,0 +1,46 @@
+nav:
+  - Home: 'index.md'
+  - Changelog: 'changelog.md'
+  - Features: 
+    - Secret finder: 'features/secret-finder.md'
+    - Dungeons QOL Features: 'features/dungeon-qol-features.md'
+    - Dungeons Hud: 'features/dungeons-hud.md'
+    - Puzzle Solvers: 'features/puzzle-solvers.md'
+
+site_name: Dungeons Guide 
+docs_dir: docs
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - admonition
+
+theme:
+  logo: assets/dg.png
+  name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+        
+    - scheme: slate 
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+site_description: |
+  Welcome to the Dungeons Guide wiki!
+
+copyright: Copyright &copy; 2021 Dungeons Guide - The most intelligent Hypixel Skyblock Dungeons Mod
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https:/discord.gg/dg
+      name: Our discord
